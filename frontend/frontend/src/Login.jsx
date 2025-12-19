@@ -18,7 +18,7 @@ export default function Login({ setUser, loadCart }) {
     }
 
     try {
-      const res = await fetch("http://16.16.67.21:5000/api/auth/login", {
+      const res = await fetch("http://13.61.21.254:5000/api/auth/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),
